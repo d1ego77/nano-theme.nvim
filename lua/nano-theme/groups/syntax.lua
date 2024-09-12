@@ -25,7 +25,6 @@ function M.get()
     Exception      = c.nano_salient,
     Float          = { link = "Number" },
     Function       = c.nano_strong,
-    ["@function.call"] = c.nano_strong,
     Identifier     = c.nano_foreground,
     Include        = c.nano_salient,
     Italic         = { italic = true },
