@@ -31,7 +31,7 @@ function M.get()
 
   local blue    = "#42A5F5"
   local cyan    = "#26C6DA"
-  local green   = "#66BB6A"
+  local green   = "#448C27"
   local magenta = "#AB47BC"
   local red     = "#EF5350"
   local yellow  = "#E2C12F"
