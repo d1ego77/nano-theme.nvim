@@ -41,7 +41,7 @@ function M.get()
     SpecialComment = { link = "Comment" },
     Statement      = c.nano_salient,
     StorageClass   = c.nano_salient,
-    String         = c.teminal_color_10,
+    String         = c.terminal_color_10,
     Structure      = c.nano_salient,
     Tag            = c.nano_strong,
     Todo           = c.nano_salient,
