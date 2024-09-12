@@ -31,7 +31,7 @@ function M.get()
     Keyword        = c.nano_salient,
     Label          = c.nano_salient,
     Macro          = { link = "Function" },
-    Number         = c.terinal_color_1,
+    Number         = c.terminal_color_1,
     Operator       = c.nano_foreground,
     PreCondit      = c.nano_salient,
     PreProc        = c.nano_salient,
