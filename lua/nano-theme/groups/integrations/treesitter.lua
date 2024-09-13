@@ -91,7 +91,8 @@ function M.get()
     ["@module"]           = { link = "Structure" },
     ["@symbol"]           = c.nano_salient,
     ["@variable"]         = c.nano_foreground,
-    ["@variable.builtin"] = c.nano_foreground,
+    ["@variable.builtin"] = { link = "Constant" },
+   -- ["@variable.builtin"] = c.nano_foreground,
 
     -- Text --------------------------------------------------------------------------------
 
