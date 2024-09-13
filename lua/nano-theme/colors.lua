@@ -36,6 +36,8 @@ function M.get()
   local red     = "#EF5350"
   local yellow  = "#E2C12F"
 
+  local const_color = "#7A3E9D"
+
   local colors = {
     -- Colors ------------------------------------------------------------------------------
 
@@ -69,7 +71,7 @@ function M.get()
     nano_popout     = { fg = nano_popout_color },
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
-    nano_const      = { fg = red },
+    nano_const      = { fg = const_color },
 
     -- Terminal Colors ---------------------------------------------------------------------
 
