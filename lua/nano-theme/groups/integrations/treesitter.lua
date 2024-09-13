@@ -40,7 +40,8 @@ function M.get()
 
     ["@constructor"]      = c.nano_salient,
     ["@function"]         = { link = "Function" },
-    ["@function.builtin"] = c.nano_foreground,
+    ["@function.builtin"] = { link = "Function" },
+   -- ["@function.builtin"] = c.nano_foreground,
     ["@function.call"]    = { link = "Function" },
     --["@function.macro"]   = { link = "Function" },
     ["@function.macro"]   = c.nano_const,
