@@ -15,7 +15,7 @@ function M.get()
     Boolean        = c.nano_salient,
     Character      = c.nano_faded,
     Changed        = c.nano_popout,
-    Comment        = c.nano_faded,
+    Comment        = c.nano_comment,
     Conditional    = c.nano_salient,
     Constant       = c.nano_const,
     Debug          = { link = "Special" },

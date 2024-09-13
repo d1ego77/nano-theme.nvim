@@ -37,7 +37,7 @@ function M.get()
   local yellow  = "#E2C12F"
 
   local const_color = "#7A3E9D"
-
+  local comment_color = "#AA3731"
   local colors = {
     -- Colors ------------------------------------------------------------------------------
 
@@ -72,6 +72,7 @@ function M.get()
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
     nano_const      = { fg = const_color },
+    nano_comment    = { fg = comment_color },
 
     -- Terminal Colors ---------------------------------------------------------------------
 
