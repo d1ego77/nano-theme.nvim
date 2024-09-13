@@ -9,6 +9,13 @@ local M = {}
 function M.get()
   local is_light_theme = vim.o.background == "light"
 
+
+if is_light_theme then
+    print("El tema es claro")
+else
+    print("El tema es oscuro")
+end
+
   local  base0 = is_light_theme and "#FFFFFF" or "#191C25"
   local  base1 = is_light_theme and "#E0E0E0" or "#242832"
   local  base2 = is_light_theme and "#C1C1C1" or "#2C333F"
