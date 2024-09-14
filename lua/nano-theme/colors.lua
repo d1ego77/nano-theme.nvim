@@ -69,7 +69,7 @@ function M.get()
     nano_faded      = { fg = nano_faded_color },
     nano_veryfaded  = { fg = nano_veryfaded_color },
     nano_salient    = { fg = nano_salient_color },
-    nano_strong     = { fg = nano_strong_color, bold = true },
+    nano_strong     = { fg = nano_strong_color, bold = false },
     nano_popout     = { fg = nano_popout_color },
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
