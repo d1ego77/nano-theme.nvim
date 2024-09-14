@@ -73,7 +73,7 @@ function M.get()
     nano_strong     = { fg = nano_strong_color, bold = false },
     nano_popout     = { fg = nano_popout_color },
     nano_critical   = { fg = nano_critical_color },
-    nano_string     = { fg = green },
+    nano_string     = { fg = yellow },
     nano_const      = { fg = const_color },
     nano_comment    = { fg = comment_color },
 
