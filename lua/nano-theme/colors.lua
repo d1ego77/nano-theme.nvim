@@ -28,7 +28,7 @@ function M.get()
   local nano_veryfaded_color  = is_light_theme and "#BBCCCE" or "#506071"
   local nano_salient_color    = is_light_theme and "#325CC0" or "#81A1C1"
   --local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
-  local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
+  local nano_strong_color     = is_light_theme and "#42A5F5" or "#FFFFFF"
   local nano_popout_color     = is_light_theme and "#EECC20" or "#FFAB91"
   --local nano_popout_color     = is_light_theme and "#FFAB91" or "#D08770"
   local nano_critical_color   = is_light_theme and "#FF6F00" or "#EBCB8B"
