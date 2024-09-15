@@ -27,7 +27,7 @@ function M.get()
   local nano_faded_color      = is_light_theme and "#90A4AE" or "#677691"
   local nano_veryfaded_color  = is_light_theme and "#BBCCCE" or "#506071"
   local nano_salient_color    = is_light_theme and "#325CC0" or "#81A1C1"
-  local nano_strong_color     = is_light_theme and "#743E9D" or "#FFFFFF"
+  local nano_strong_color     = is_light_theme and "#325CC0" or "#FFFFFF"
   --local nano_strong_color     = is_light_theme and "#325CC0" or "#FFFFFF"
   local nano_popout_color     = is_light_theme and "#EBC000" or "#FFAB91"
   --local nano_popout_color     = is_light_theme and "#FFAB91" or "#D08770"
@@ -40,7 +40,7 @@ function M.get()
   local red     = "#FF6F00"
   local yellow  = "#E2C12F"
 
-  local const_color = "#74E"
+  local const_color = "#743E9D"
   local comment_color = "#AA3731"
   local colors = {
     -- Colors ------------------------------------------------------------------------------
