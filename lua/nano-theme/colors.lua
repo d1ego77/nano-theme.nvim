@@ -27,8 +27,8 @@ function M.get()
   local nano_faded_color      = is_light_theme and "#90A4AE" or "#677691"
   local nano_veryfaded_color  = is_light_theme and "#BBCCCE" or "#506071"
   local nano_salient_color    = is_light_theme and "#325CC0" or "#81A1C1"
-  --local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
-  local nano_strong_color     = is_light_theme and "#325CC0" or "#FFFFFF"
+  local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
+  --local nano_strong_color     = is_light_theme and "#325CC0" or "#FFFFFF"
   local nano_popout_color     = is_light_theme and "#EECC20" or "#FFAB91"
   --local nano_popout_color     = is_light_theme and "#FFAB91" or "#D08770"
   local nano_critical_color   = is_light_theme and "#FF6F00" or "#EBCB8B"
@@ -71,7 +71,7 @@ function M.get()
     nano_faded      = { fg = nano_faded_color },
     nano_veryfaded  = { fg = nano_veryfaded_color },
     nano_salient    = { fg = nano_salient_color },
-    nano_strong     = { fg = nano_strong_color, bold = false },
+    nano_strong     = { fg = nano_strong_color, bold = true },
     nano_popout     = { fg = nano_popout_color },
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
