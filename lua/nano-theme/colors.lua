@@ -19,17 +19,15 @@ function M.get()
   local  base6 = is_light_theme and "#474747" or "#9099AB"
   local  base7 = is_light_theme and "#282828" or "#D8DEE9"
 
-  --local nano_foreground_color = is_light_theme and "#37474F" or "#ECEFF4"
-  local nano_foreground_color = is_light_theme and "#000000" or "#ECEFF4"
+  local nano_foreground_color = is_light_theme and "#37474F" or "#ECEFF4"
   local nano_background_color = is_light_theme and "#F7F7F7" or "#2E3440"
   local nano_highlight_color  = is_light_theme and "#E8E8E8" or "#3B4252"
   local nano_subtle_color     = is_light_theme and "#ECEFF1" or "#434C5E"
   local nano_faded_color      = is_light_theme and "#90A4AE" or "#677691"
   local nano_veryfaded_color  = is_light_theme and "#BBCCCE" or "#506071"
   local nano_salient_color    = is_light_theme and "#325CC0" or "#81A1C1"
-  local nano_strong_color     = is_light_theme and "#743E9D" or "#FFFFFF"
-  --local nano_strong_color     = is_light_theme and "#325CC0" or "#FFFFFF"
-  local nano_popout_color     = is_light_theme and "#e2c12f" or "#FFAB91"
+  local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
+  local nano_popout_color     = is_light_theme and "#EECC20" or "#FFAB91"
   --local nano_popout_color     = is_light_theme and "#FFAB91" or "#D08770"
   local nano_critical_color   = is_light_theme and "#FF6F00" or "#EBCB8B"
 
@@ -37,10 +35,10 @@ function M.get()
   local cyan    = "#26C6DA"
   local green   = "#448C27"
   local magenta = "#AB47BC"
-  local red     = "#FF6F00"
+  local red     = "#EF5350"
   local yellow  = "#E2C12F"
 
-  local const_color = "#c7185b"
+  local const_color = "#7A3E9D"
   local comment_color = "#AA3731"
   local colors = {
     -- Colors ------------------------------------------------------------------------------
@@ -71,7 +69,7 @@ function M.get()
     nano_faded      = { fg = nano_faded_color },
     nano_veryfaded  = { fg = nano_veryfaded_color },
     nano_salient    = { fg = nano_salient_color },
-    nano_strong     = { fg = nano_strong_color, bold = false },
+    nano_strong     = { fg = nano_strong_color, bold = true },
     nano_popout     = { fg = nano_popout_color },
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
