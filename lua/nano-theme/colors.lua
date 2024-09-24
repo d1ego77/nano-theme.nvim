@@ -77,7 +77,7 @@ function M.get()
     nano_critical   = { fg = nano_critical_color },
     nano_string     = { fg = green },
     nano_const      = { fg = const_color },
-    nano_comment    = { fg = comment_color },
+    nano_comment    = { fg = comment_color, italic = true },
 
     -- Terminal Colors ---------------------------------------------------------------------
 
