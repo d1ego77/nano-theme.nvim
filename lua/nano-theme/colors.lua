@@ -19,7 +19,7 @@ function M.get()
   local  base6 = is_light_theme and "#474747" or "#9099AB"
   local  base7 = is_light_theme and "#282828" or "#D8DEE9"
 
-  local nano_foreground_color = is_light_theme and "#212529" or "#ECEFF4"
+  local nano_foreground_color = is_light_theme and "#161616" or "#ECEFF4"
   --local nano_foreground_color = is_light_theme and "#37474F" or "#ECEFF4"
   local nano_background_color = is_light_theme and "#F7F7F7" or "#2E3440"
   local nano_highlight_color  = is_light_theme and "#D8DEE9" or "#3B4252"
@@ -42,7 +42,7 @@ function M.get()
   local yellow  = "#F1C21B"
 
   local const_color = "#6929C4"
-  local comment_color = "#defbe6"
+  local comment_color = "#A7F0BA"
   local colors = {
     -- Colors ------------------------------------------------------------------------------
 
