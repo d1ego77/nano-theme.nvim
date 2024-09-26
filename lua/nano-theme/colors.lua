@@ -42,7 +42,7 @@ function M.get()
   local yellow  = "#F1C21B"
 
   local const_color = "#6929C4"
-  local comment_color = "#878d96"
+  local comment_color = "#ada8a8"
   local colors = {
     -- Colors ------------------------------------------------------------------------------
 
