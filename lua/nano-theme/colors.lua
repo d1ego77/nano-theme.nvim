@@ -30,7 +30,7 @@ function M.get()
   --local nano_salient_color    = is_light_theme and "#325CC0" or "#81A1C1"
   local nano_strong_color     = is_light_theme and "#0043CE" or "#FFFFFF"
   --local nano_strong_color     = is_light_theme and "#263238" or "#FFFFFF"
-  local nano_popout_color     = is_light_theme and "#EECC20" or "#FFAB91"
+  local nano_popout_color     = is_light_theme and "#F1C21B" or "#FFAB91"
   --local nano_popout_color     = is_light_theme and "#FFAB91" or "#D08770"
   local nano_critical_color   = is_light_theme and "#FF6F00" or "#EBCB8B"
 
@@ -39,7 +39,7 @@ function M.get()
   local green   = "#198038"
   local magenta = "#AB47BC"
   local red     = "#EF5350"
-  local yellow  = "#E2C12F"
+  local yellow  = "#F1C21B"
 
   local const_color = "#6929C4"
   local comment_color = "#A2191F"
