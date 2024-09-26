@@ -21,7 +21,7 @@ function M.get()
 
   local nano_foreground_color = is_light_theme and "#171414" or "#ECEFF4"
   --local nano_foreground_color = is_light_theme and "#37474F" or "#ECEFF4"
-  local nano_background_color = is_light_theme and "#f7f3f2" or "#2E3440"
+  local nano_background_color = is_light_theme and "#f4f4f4" or "#2E3440"
   local nano_highlight_color  = is_light_theme and "#E5E0DF" or "#3B4252"
   local nano_subtle_color     = is_light_theme and "#E8DAFF" or "#434C5E"
   local nano_faded_color      = is_light_theme and "#90A4AE" or "#677691"
