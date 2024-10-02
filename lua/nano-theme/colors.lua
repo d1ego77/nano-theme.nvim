@@ -19,17 +19,17 @@ function M.get()
   local  base6 = is_light_theme and "#474747" or "#9099AB"
   local  base7 = is_light_theme and "#282828" or "#D8DEE9"
 
-  local nano_foreground_color = is_light_theme and "#171414" or "#ECEFF4"
-  local nano_background_color = is_light_theme and "#f4f4f4" or "#2E3440"
-  local nano_highlight_color  = is_light_theme and "#E5E0DF" or "#3B4252"
-  local nano_subtle_color     = is_light_theme and "#E0E0E0" or "#434C5E"
-  local nano_faded_color      = is_light_theme and "#c1c7cd" or "#677691"
-  local nano_veryfaded_color  = is_light_theme and "#BBCCCE" or "#506071"
-  local nano_salient_color    = is_light_theme and "#002D9C" or "#81A1C1"
-  local nano_strong_color     = is_light_theme and "#0043CE" or "#FFFFFF"
-  local nano_popout_color     = is_light_theme and "#F1C21B" or "#FFAB91"
-  local nano_critical_color   = is_light_theme and "#FF6F00" or "#EBCB8B"
-  local nano_punctuation      = is_light_theme and "#8d8d8d" or "#8d8d8d"
+  local nano_foreground_color   = is_light_theme and "#171414" or "#ECEFF4"
+  local nano_background_color   = is_light_theme and "#f4f4f4" or "#2E3440"
+  local nano_highlight_color    = is_light_theme and "#E5E0DF" or "#3B4252"
+  local nano_subtle_color       = is_light_theme and "#E0E0E0" or "#434C5E"
+  local nano_faded_color        = is_light_theme and "#c1c7cd" or "#677691"
+  local nano_veryfaded_color    = is_light_theme and "#BBCCCE" or "#506071"
+  local nano_salient_color      = is_light_theme and "#002D9C" or "#81A1C1"
+  local nano_strong_color       = is_light_theme and "#0043CE" or "#FFFFFF"
+  local nano_popout_color       = is_light_theme and "#F1C21B" or "#FFAB91"
+  local nano_critical_color     = is_light_theme and "#FF6F00" or "#EBCB8B"
+  local nano_punctuation_color  = is_light_theme and "#8d8d8d" or "#8d8d8d"
 
   local blue    = "#42A5F5"
   local cyan    = "#26C6DA"
@@ -43,17 +43,17 @@ function M.get()
   local colors = {
     -- Colors ------------------------------------------------------------------------------
 
-    nano_foreground_color = nano_foreground_color,
-    nano_background_color = nano_background_color,
-    nano_highlight_color  = nano_highlight_color,
-    nano_subtle_color     = nano_subtle_color,
-    nano_faded_color      = nano_faded_color,
-    nano_veryfaded_color  = nano_veryfaded_color,
-    nano_salient_color    = nano_salient_color,
-    nano_strong_color     = nano_strong_color,
-    nano_popout_color     = nano_popout_color,
-    nano_critical_color   = nano_critical_color,
-    nano_punctuation      = nano_punctuation,
+    nano_foreground_color  = nano_foreground_color,
+    nano_background_color  = nano_background_color,
+    nano_highlight_color   = nano_highlight_color,
+    nano_subtle_color      = nano_subtle_color,
+    nano_faded_color       = nano_faded_color,
+    nano_veryfaded_color   = nano_veryfaded_color,
+    nano_salient_color     = nano_salient_color,
+    nano_strong_color      = nano_strong_color,
+    nano_popout_color      = nano_popout_color,
+    nano_critical_color    = nano_critical_color,
+    nano_punctuation_color = nano_punctuation_color,
 
     bg = nano_background_color,
     fg = nano_foreground_color,
@@ -64,6 +64,7 @@ function M.get()
     -- Highlight Decoration ----------------------------------------------------------------
 
     nano_foreground = { fg = nano_foreground_color },
+    nano_punctuation = { fg = nano_punctuation_color},
     nano_background = { fg = nano_background_color },
     nano_highlight  = { fg = nano_highlight_color },
     nano_subtle     = { fg = nano_subtle_color },
